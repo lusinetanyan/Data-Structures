@@ -38,11 +38,12 @@ public class Problem_3 {
         }
 
         convertToAVL(AVLTree, keys, current, low, mid - 1, true);
-        convertToAVL(AVLTree, keys, current, mid + 1, high, true);
+        convertToAVL(AVLTree, keys, current, mid + 1, high, false);
     }
 
 
     public static void main(String[] args) {
-
+        int[] keys = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+        LinkedBinaryTree<Integer> tree = convertToAVL(keys);
     }
 }

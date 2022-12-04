@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ds_hw1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/company/hw1/ds_hw1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
