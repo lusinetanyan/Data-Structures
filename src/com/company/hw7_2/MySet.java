@@ -5,7 +5,7 @@ import com.company.hw7_2.UtilityInterfaces.Set;
 
 import java.util.Iterator;
 
-public class MySet<E> implements Set<E> {
+public class MySet<E> implements Set<E>, Iterable<E> {
 
     private UnsortedTableMap<E, Integer> set = new UnsortedTableMap<>();
 
