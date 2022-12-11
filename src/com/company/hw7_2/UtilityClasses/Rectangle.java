@@ -1,5 +1,7 @@
 package com.company.hw7_2.UtilityClasses;
 
+import java.util.Objects;
+
 public class Rectangle implements Comparable<Rectangle> {
     private double width;
     private double height;
@@ -31,8 +33,13 @@ public class Rectangle implements Comparable<Rectangle> {
         else return (int) (this.width - rectangle.width);
     }
 
+//    @Override
+//    public int hashCode() {
+//        return (int) width;
+//    }
+
     @Override
     public int hashCode() {
-        return (int) width;
+        return Objects.hash(width, height);
     }
 }
