@@ -92,8 +92,8 @@ public class Problem_2 {
         Rectangle1[] rectangles = new Rectangle1[1000000];
         Random random = new Random();
         for (int i = 0; i < 1000000; i++) {
-            int height = random.nextInt(1, 101);
-            int width = random.nextInt(1, 101);
+            double height = random.nextDouble(1, 101);
+            double width = random.nextDouble(1, 101);
             rectangles[i] = new Rectangle1(width, height);
         }
         return rectangles;
@@ -103,8 +103,8 @@ public class Problem_2 {
         Rectangle2[] rectangles = new Rectangle2[1000000];
         Random random = new Random();
         for (int i = 0; i < 1000000; i++) {
-            int height = random.nextInt(1, 101);
-            int width = random.nextInt(1, 101);
+            double height = random.nextDouble(1, 101);
+            double width = random.nextDouble(1, 101);
             rectangles[i] = new Rectangle2(width, height);
         }
         return rectangles;
@@ -114,8 +114,8 @@ public class Problem_2 {
         Rectangle3[] rectangles = new Rectangle3[1000000];
         Random random = new Random();
         for (int i = 0; i < 1000000; i++) {
-            int height = random.nextInt(1, 101);
-            int width = random.nextInt(1, 101);
+            double height = random.nextDouble(1, 101);
+            double width = random.nextDouble(1, 101);
             rectangles[i] = new Rectangle3(width, height);
         }
         return rectangles;
